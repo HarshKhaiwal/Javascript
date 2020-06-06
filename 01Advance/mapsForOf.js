@@ -41,3 +41,9 @@ for (const [key, value] of users.entries()) {
 
 users.forEach((value,key) => console.log(key+' = '+value.age))
 // users.forEach((key,value) => console.log(key+' = '+value.age))    this is wrong value will always come first than key
+
+
+var arrofArr =[['one','1'],['two','2'],['three','3']]
+
+var newMap = new Map(arrofArr)
+console.log(newMap)
